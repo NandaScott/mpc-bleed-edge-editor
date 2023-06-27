@@ -18,5 +18,4 @@ jobs:
 
       - uses: softprops/action-gh-release@v1
         with:
-          files: Bleed Edge Editor.exe
-          path: src/dist
+          files: src/dist/Bleed Edge Editor.exe
