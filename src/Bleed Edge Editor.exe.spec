@@ -28,7 +28,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='main',
+    name='Bleed Edge Editor.exe',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
