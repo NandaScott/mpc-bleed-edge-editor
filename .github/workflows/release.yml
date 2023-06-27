@@ -16,7 +16,7 @@ jobs:
         with:
           path: src
 
-      - uses: actions/upload-artifact@v2
+      - uses: softprops/action-gh-release@v1
         with:
-          name: Bleed Edge Editor.exe
+          files: Bleed Edge Editor.exe
           path: src/dist
